@@ -1,0 +1,58 @@
+<div id="resultContainer">
+
+    <h2>Contract Summary</h2>
+    <p id="summary"></p>
+
+    <h2>Risk Score</h2>
+    <p id="riskScore"></p>
+
+    <h2>Risk Level</h2>
+    <p id="riskLevel"></p>
+
+    <h2>Risk Findings</h2>
+    <ul id="riskFindings"></ul>
+
+    <h2>Compliance Findings</h2>
+    <ul id="compliance"></ul>
+
+    <h2>Recommendations</h2>
+    <ul id="recommendations"></ul>
+
+    <h2>Financial Breakdown</h2>
+
+    <div id="financialData">
+
+        <p>
+            Interest Rate:
+            <span id="interestRate"></span>
+        </p>
+
+        <p>
+            Processing Fee:
+            <span id="processingFee"></span>
+        </p>
+
+        <p>
+            Foreclosure Charges:
+            <span id="foreclosure"></span>
+        </p>
+
+    </div>
+
+    <h2>Risk Chart</h2>
+
+    <canvas
+        id="riskChart"
+        width="300"
+        height="300">
+    </canvas>
+
+    <button id="downloadReport">
+        Download PDF Report
+    </button>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script type="module" src="js/result.js"></script>

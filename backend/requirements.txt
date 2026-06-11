@@ -1,0 +1,73 @@
+# =========================
+# CORE BACKEND
+# =========================
+fastapi
+uvicorn[standard]
+pydantic
+pydantic-settings
+python-dotenv
+
+# =========================
+# DATABASE
+# =========================
+sqlalchemy
+psycopg2-binary
+
+# =========================
+# FILE UPLOADS
+# =========================
+python-multipart
+
+# =========================
+# PDF PROCESSING
+# =========================
+pdfplumber
+PyPDF2
+
+# =========================
+# AI / NLP / RAG
+# =========================
+sentence-transformers
+chromadb
+langchain-text-splitters
+
+# =========================
+# DATA PROCESSING
+# =========================
+numpy
+pandas
+
+# =========================
+# HTTP REQUESTS
+# =========================
+requests
+
+# =========================
+# UTILITIES
+# =========================
+python-dateutil
+
+# =========================
+# OPTIONAL OCR (only if needed later)
+# =========================
+pytesseract
+Pillow
+
+# =========================
+# TESTING
+# =========================
+pytest
+
+# =========================
+# LOGGING / DEBUGGING
+# =========================
+rich
+
+# =========================
+# OPTIONAL AI PROVIDERS
+# Install ONLY when needed later
+# =========================
+# openai
+# groq
+# google-generativeai
+# ollama

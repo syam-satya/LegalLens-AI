@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>
+        Compare Contracts
+    </title>
+
+    <link
+        rel="stylesheet"
+        href="css/style.css"
+    >
+
+</head>
+
+<body>
+
+    <h1>
+        Compare Contracts
+    </h1>
+
+    <div>
+
+        <h3>
+            Contract A
+        </h3>
+
+        <input
+            type="file"
+            id="contractA"
+            accept=".pdf"
+        >
+
+    </div>
+
+    <br>
+
+    <div>
+
+        <h3>
+            Contract B
+        </h3>
+
+        <input
+            type="file"
+            id="contractB"
+            accept=".pdf"
+        >
+
+    </div>
+
+    <br>
+
+    <button id="compareBtn">
+        Compare
+    </button>
+
+    <div id="comparisonResult">
+
+    </div>
+
+    <script
+        type="module"
+        src="js/compare.js">
+    </script>
+
+</body>
+
+</html>
